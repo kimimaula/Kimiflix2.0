@@ -6,9 +6,11 @@ import Main from './pages';
 
 function App() {
   return (
+    <div>
     <Switch>
       <Route path="/" component={Main} />
     </Switch>
+    </div>
   );
 }
 
